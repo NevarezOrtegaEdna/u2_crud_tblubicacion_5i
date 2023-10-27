@@ -321,7 +321,7 @@
 
                             <div class="col-md-4">
                         <label for="edit_estado" class="form-label">Estado</label>
-                        <select class="form-select" name="edit_estado" aria-label="Default select example">
+                        <select class="form-select" name="edit_estado" id= "edit_estado" aria-label="Default select example">
                             <option value="Aguascalientes">Aguascalientes</option>
                             <option value="BajaCalifonia">Baja California</option>
                             <option value="BajaCalifoniaSur">Baja Califonia Sur</option>
@@ -358,29 +358,29 @@
                     </div>
                     <div class="col-md-4">
                         <label for="edit_ciudad" class="form-label">Ciudad</label>
-                        <input type="text" name="edit_ciudad" class="form-control" placeholder="Juárez" required>
+                        <input type="text" name="edit_ciudad" id="edit_ciudad" class="form-control" placeholder="Juárez" required>
                     </div>
                     <div class="col-md-4">
                         <label for="edit_codigoP" class="form-label">Codigo Postal</label>
-                        <input type="text" name="edit_codigoP" class="form-control" placeholder="32730" required>
+                        <input type="text" name="edit_codigoP" id="edit_codigoP" class="form-control" placeholder="32730" required>
                     </div>
                     <div class="col-md-4">
                         <label for="edit_zonaH" class="form-label">Zona Horaria</label>
-                        <input type="time" name="edit_zonaH" class="form-control" placeholder="12:00" required>
+                        <input type="time" name="edit_zonaH" id="edit_zonaH" class="form-control" placeholder="12:00" required>
                     </div>
 
 
                     <div class="col-md-4">
                         <label for="edit_colonia" class="form-label">Colonia</label>
-                        <input type="text" name="edit_colonia" class="form-control" placeholder="Progresista" required>
+                        <input type="text" name="edit_colonia" id="edit_colonia" class="form-control" placeholder="Progresista" required>
                     </div>
                     <div class="col-md-4">
                         <label for="edit_nomCalle" class="form-label">Nombre de la Calle</label>
-                        <input type="text" name="edit_nomCalle" class="form-control" placeholder="Benjamín Franklin" required>
+                        <input type="text" name="edit_nomCalle" id="edit_nomCalle" class="form-control" placeholder="Benjamín Franklin" required>
                     </div> 
                     <div class="col-md-6">
                         <label for="edit_numCalle" class="form-label">Numero de la Calle</label>
-                        <input type="text" name="edit_numCalle" class="form-control" placeholder="4185" required>
+                        <input type="text" name="edit_numCalle" id="edit_numCalle"  class="form-control" placeholder="4185" required>
                     </div> 
 
 
